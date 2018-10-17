@@ -1,8 +1,8 @@
-def my_each(array) { |x| puts x }
+def my_each(array)
   i = 0
 
   while i < array.size
-    yield(array[i])
+    puts yield(array[i])
     i += 1
   end
 end
